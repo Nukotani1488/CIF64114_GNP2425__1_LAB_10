@@ -24,6 +24,8 @@
         <input type="password" id="password" name="password" required>
         <button type="submit">Login</button>
     </form>
+    <a href="{{ route('register') }}">Register</a>
+
     @if ($errors->any())
         <div class="error-messages">
             @foreach ($errors->all() as $error)

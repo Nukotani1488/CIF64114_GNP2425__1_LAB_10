@@ -24,6 +24,7 @@
         <input type="password" id="password" name="password" required>
         <button type="submit">Register</button>
     </form>
+    <a href="{{ route('login') }}">Login</a>
     @foreach ($errors as $error)
         <p>{{ $error }}</p>
     @endforeach
