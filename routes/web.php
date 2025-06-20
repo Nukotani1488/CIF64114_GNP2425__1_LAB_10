@@ -6,6 +6,7 @@ use App\Http\Controllers\AuthenticationController;
 use App\Http\Controllers\NoteController;
 
 Route::get('/', function () {
+    return view('index');
 });
 
 Route::controller(AuthenticationController::class)
